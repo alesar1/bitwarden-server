@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
+using Bit.Core.Billing.Models.OrganizationConnectionConfigs;
 using Bit.Core.Entities;
 using Bit.Core.Exceptions;
 using Bit.Core.Models.Api.Response.OrganizationSponsorships;
 using Bit.Core.Models.Data.Organizations.OrganizationSponsorships;
-using Bit.Core.Models.OrganizationConnectionConfigs;
 using Bit.Core.OrganizationFeatures.OrganizationSponsorships.FamiliesForEnterprise.SelfHosted;
 using Bit.Core.Repositories;
 using Bit.Core.Settings;

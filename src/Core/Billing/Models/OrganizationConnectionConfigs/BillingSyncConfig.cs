@@ -1,4 +1,6 @@
-﻿namespace Bit.Core.Models.OrganizationConnectionConfigs;
+﻿using Bit.Core.Models.OrganizationConnectionConfigs;
+
+namespace Bit.Core.Billing.Models.OrganizationConnectionConfigs;
 
 public class BillingSyncConfig : IConnectionConfig
 {

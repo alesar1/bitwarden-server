@@ -1,4 +1,4 @@
-﻿using Bit.Core.Models.OrganizationConnectionConfigs;
+﻿using Bit.Core.Billing.Models.OrganizationConnectionConfigs;
 using Bit.Test.Common.AutoFixture.Attributes;
 using Xunit;
 
