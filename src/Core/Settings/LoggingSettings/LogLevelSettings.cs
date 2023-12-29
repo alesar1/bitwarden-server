@@ -1,4 +1,5 @@
-﻿
+﻿using Bit.Core.Billing.Settings.LoggingSettings;
+
 namespace Bit.Core.Settings.LoggingSettings;
 
 public class LogLevelSettings : ILogLevelSettings

@@ -1,6 +1,7 @@
-﻿using Serilog.Events;
+﻿using Bit.Core.Settings;
+using Serilog.Events;
 
-namespace Bit.Core.Settings.LoggingSettings;
+namespace Bit.Core.Billing.Settings.LoggingSettings;
 
 public class BillingLogLevelSettings : IBillingLogLevelSettings
 {
