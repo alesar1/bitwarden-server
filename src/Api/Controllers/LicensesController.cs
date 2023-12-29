@@ -1,4 +1,4 @@
-﻿using Bit.Core.AdminConsole.OrganizationFeatures.OrganizationConnections.Interfaces;
+﻿using Bit.Core.Billing.OrganizationFeatures.OrganizationConnections.Interfaces;
 using Bit.Core.Context;
 using Bit.Core.Exceptions;
 using Bit.Core.Models.Api.OrganizationLicenses;

@@ -61,7 +61,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Billing\" />
     <Folder Include="Resources\" />
     <Folder Include="Properties\" />
   </ItemGroup>

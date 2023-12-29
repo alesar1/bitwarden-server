@@ -1,5 +1,5 @@
 ﻿using Bit.Core.AdminConsole.Entities;
-using Bit.Core.AdminConsole.OrganizationFeatures.OrganizationConnections;
+using Bit.Core.Billing.OrganizationFeatures.OrganizationConnections;
 using Bit.Core.Entities;
 using Bit.Core.Enums;
 using Bit.Core.Exceptions;
@@ -9,7 +9,7 @@ using Bit.Test.Common.AutoFixture.Attributes;
 using NSubstitute;
 using Xunit;
 
-namespace Bit.Core.Test.AdminConsole.OrganizationFeatures.OrganizationConnections;
+namespace Bit.Core.Test.Billing.OrganizationFeatures.OrganizationConnections;
 
 [SutProviderCustomize]
 public class ValidateBillingSyncKeyCommandTests

@@ -1,6 +1,5 @@
-﻿using Bit.Api.Models.Response;
+﻿using Bit.Core.Billing.Models;
 using Bit.Core.Models.Api;
-using Bit.Core.Models.Business;
 
 namespace Bit.Api.Billing.Models.Response;
 

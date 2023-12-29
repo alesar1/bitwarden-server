@@ -1,9 +1,9 @@
 ﻿using Bit.Core.AdminConsole.Entities;
-using Bit.Core.AdminConsole.OrganizationFeatures.OrganizationConnections.Interfaces;
+using Bit.Core.Billing.OrganizationFeatures.OrganizationConnections.Interfaces;
 using Bit.Core.Exceptions;
 using Bit.Core.Repositories;
 
-namespace Bit.Core.AdminConsole.OrganizationFeatures.OrganizationConnections;
+namespace Bit.Core.Billing.OrganizationFeatures.OrganizationConnections;
 
 public class ValidateBillingSyncKeyCommand : IValidateBillingSyncKeyCommand
 {
@@ -27,10 +27,6 @@ public class ValidateBillingSyncKeyCommand : IValidateBillingSyncKeyCommand
         }
 
         var orgApiKey = (await _apiKeyRepository.GetManyByOrganizationIdTypeAsync(organization.Id, Core.Enums.OrganizationApiKeyType.BillingSync)).FirstOrDefault();
-        if (string.Equals(orgApiKey.ApiKey, billingSyncKey))
-        {
-            return true;
-        }
-        return false;
+        return string.Equals(orgApiKey.ApiKey, billingSyncKey);
     }
 }
